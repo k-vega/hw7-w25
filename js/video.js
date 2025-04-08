@@ -26,7 +26,6 @@ window.addEventListener("load", function () {
 	video.autoplay = false;
 	video.loop = false;
 	video.load();
-	volumeDisplay.textContent = `${video.volume * 100}%`;
   
 	// Play
 	playBtn.addEventListener("click", () => {
